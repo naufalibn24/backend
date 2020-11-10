@@ -35,6 +35,4 @@ app.use(caraousell)
 app.get('/', (req, res, next) => {
     res.send('Hello World')
 })
-app.listen(3000, ()=>{
-    console.log('port berjalan')
-})
+app.listen(process.env.PORT || 3000)
