@@ -1,7 +1,7 @@
 const mongodb = require ('mongodb');
 const MongoClient = mongodb.MongoClient;
 const mongoose = require ('mongoose');
-const connectingURL = 'mongodb+srv://petrus766hi:1234567890@backend.pfup9.mongodb.net/backend?retryWrites=true&w=majority';
+const connectingURL = 'mongodb://assigment3:assigment3@ds133358.mlab.com:33358/heroku_1x1k1nrg';
 const databaseName = 'Betta-Fish';
 
 module.exports = function () {
